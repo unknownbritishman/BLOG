@@ -1,0 +1,44 @@
+.heading {
+    text-align: center;
+}
+
+.idk {
+    width: 320px;
+    height: 120px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.idk2 {
+    width: 400px;
+    height: 200px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+
+body {
+    background-color: forestgreen;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 1rem;
+}
+
+.idk3 {
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.end {
+    text-align: center;
+    grid-column: 2/3;
+    font-size: xx-large;
+    font-weight: bold;
+}
